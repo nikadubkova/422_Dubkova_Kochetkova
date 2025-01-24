@@ -5,7 +5,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:local="clr-namespace:_422_Dubkova_Kochetkova_pr1"
     mc:Ignorable="d"
-    Title="MainWindow" Height="370" Width="520">
+    Title="MainWindow" Height="370" Width="520" Background="#FFE4E1">
 	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>
@@ -42,8 +42,8 @@
 		<TextBox Name="resultTextBox" Grid.Row="4" Grid.Column="1"  VerticalAlignment="Center" Margin="5,0,5,0" IsReadOnly="True" TextWrapping="Wrap" AcceptsReturn="True" MinLines="2" MaxLines="5" Height="24"/>
 
 		<StackPanel Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
-			<Button Name="calculateButton" Content="Вычислить" Click="CalculateButton_Click" Margin="5" Padding="5"/>
-			<Button Name="clearButton" Content="Очистить" Click="ClearButton_Click" Margin="5" Padding="5"/>
+            <Button Name="calculateButton" Content="Вычислить" Background="#ffb6c1" Click="CalculateButton_Click" Margin="5" Padding="5"/>
+            <Button Name="clearButton" Content="Очистить" Background="#fff0f5" Click="ClearButton_Click" Margin="5" Padding="5"/>
 		</StackPanel>
 	</Grid>
 </Window>
