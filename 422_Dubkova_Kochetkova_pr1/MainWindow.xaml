@@ -5,7 +5,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:local="clr-namespace:_422_Dubkova_Kochetkova_pr1"
     mc:Ignorable="d"
-    Title="MainWindow" Height="370" Width="520" Background="#FFE4E1">
+    Title="MainWindow" Height="370" Width="520" Background="#FFE4E1"
+    Closing="Window_Closing">
+    
 	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>
